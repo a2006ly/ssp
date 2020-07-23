@@ -15,7 +15,7 @@ else:
 
 # ファイルチェック
 try:
-    file = open('param_1', 'r')
+    file = open('file_in', 'r')
 except IOError:
     print("ファイル[" + file_in + "]開くエラー")
     exit(1)
